@@ -1,5 +1,5 @@
-#ifndef A8_SRC_MAIN_VIEW_MAIN_WINDOW_H_
-#define A8_SRC_MAIN_VIEW_MAIN_WINDOW_H_
+#ifndef SRC_MAIN_VIEW_MAIN_WINDOW_H_
+#define SRC_MAIN_VIEW_MAIN_WINDOW_H_
 
 #include <QMainWindow>
 
@@ -46,4 +46,4 @@ class MainWindow : public QMainWindow {
   void PlotMouseMove(QMouseEvent *event);
 };
 
-#endif  // A8_SRC_MAIN_VIEW_MAIN_WINDOW_H_
+#endif  // SRC_MAIN_VIEW_MAIN_WINDOW_H_

@@ -1,5 +1,5 @@
-#ifndef A8_SRC_MAIN_MODEL_COMMON_THREAD_POOL_H_
-#define A8_SRC_MAIN_MODEL_COMMON_THREAD_POOL_H_
+#ifndef SRC_MAIN_MODEL_COMMON_THREAD_POOL_H_
+#define SRC_MAIN_MODEL_COMMON_THREAD_POOL_H_
 
 #include <atomic>
 #include <condition_variable>
@@ -50,4 +50,4 @@ class ThreadPool {
   void Worker();
 };
 
-#endif  // A8_SRC_MAIN_MODEL_COMMON_THREAD_POOL_H_
+#endif  // SRC_MAIN_MODEL_COMMON_THREAD_POOL_H_

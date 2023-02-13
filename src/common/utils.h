@@ -1,5 +1,5 @@
-#ifndef A8_SRC_MAIN_MODEL_COMMON_UTILS_H_
-#define A8_SRC_MAIN_MODEL_COMMON_UTILS_H_
+#ifndef SRC_MAIN_MODEL_COMMON_UTILS_H_
+#define SRC_MAIN_MODEL_COMMON_UTILS_H_
 
 #include <algorithm>
 #include <functional>
@@ -19,4 +19,4 @@ T Random(T from, T to) {
 
 }  // namespace Utils
 
-#endif  // A8_SRC_MAIN_MODEL_COMMON_UTILS_H_
+#endif  // SRC_MAIN_MODEL_COMMON_UTILS_H_

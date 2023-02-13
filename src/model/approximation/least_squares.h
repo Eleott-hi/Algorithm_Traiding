@@ -1,5 +1,5 @@
-#ifndef A8_SRC_MODEL_APPROXIMATION_LEAST_SQUARES_H_
-#define A8_SRC_MODEL_APPROXIMATION_LEAST_SQUARES_H_
+#ifndef SRC_MODEL_APPROXIMATION_LEAST_SQUARES_H_
+#define SRC_MODEL_APPROXIMATION_LEAST_SQUARES_H_
 
 #include <cmath>
 #include <vector>
@@ -34,4 +34,4 @@ class LeastSquares : public BaseApproximation {
 
 }  // namespace Approximation
 
-#endif  // A8_SRC_MODEL_APPROXIMATION_LEAST_SQUARES_H_
+#endif  // SRC_MODEL_APPROXIMATION_LEAST_SQUARES_H_

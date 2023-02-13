@@ -1,5 +1,5 @@
-#ifndef A8_SRC_MAIN_MODEL_COMMON_TIMER_H_
-#define A8_SRC_MAIN_MODEL_COMMON_TIMER_H_
+#ifndef SRC_MAIN_MODEL_COMMON_TIMER_H_
+#define SRC_MAIN_MODEL_COMMON_TIMER_H_
 
 #include <chrono>
 
@@ -20,4 +20,4 @@ class Timer {
   Timestamp GetTime() { return high_resolution_clock::now(); }
 };
 
-#endif  // A8_SRC_MAIN_MODEL_COMMON_TIMER_H_
+#endif  // SRC_MAIN_MODEL_COMMON_TIMER_H_

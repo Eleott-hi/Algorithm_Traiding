@@ -20,7 +20,7 @@ set(LIBS
     shared
     common
 )
-set(EXCLUDE_DIRS tests/ ${LIBS})
+set(EXCLUDE_DIRS tests ${LIBS})
 
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS ${QT_LIBS})
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS ${QT_LIBS})

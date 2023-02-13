@@ -1,5 +1,5 @@
-#ifndef A8_SRC_MAIN_MODEL_COMMON_GAUSS_H_
-#define A8_SRC_MAIN_MODEL_COMMON_GAUSS_H_
+#ifndef SRC_MAIN_MODEL_COMMON_GAUSS_H_
+#define SRC_MAIN_MODEL_COMMON_GAUSS_H_
 
 #include <vector>
 
@@ -10,4 +10,4 @@ class Gauss {
   static std::vector<double> Solve(Matrix& matrix);
 };
 
-#endif  // A8_SRC_MAIN_MODEL_COMMON_GAUSS_H_
+#endif  // SRC_MAIN_MODEL_COMMON_GAUSS_H_

@@ -1,5 +1,5 @@
-#ifndef A8_SRC_MAIN_MODEL_MODEL_H_
-#define A8_SRC_MAIN_MODEL_MODEL_H_
+#ifndef SRC_MAIN_MODEL_MODEL_H_
+#define SRC_MAIN_MODEL_MODEL_H_
 
 #include <QVector>
 #include <vector>
@@ -44,4 +44,4 @@ class Model {
                                     size_t days = 0) const;
 };
 
-#endif  // A8_SRC_MAIN_MODEL_MODEL_H_
+#endif  // SRC_MAIN_MODEL_MODEL_H_

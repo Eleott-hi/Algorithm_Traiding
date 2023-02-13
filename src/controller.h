@@ -1,5 +1,5 @@
-#ifndef A8_SRC_MAIN_CONTROLLER_H_
-#define A8_SRC_MAIN_CONTROLLER_H_
+#ifndef SRC_MAIN_CONTROLLER_H_
+#define SRC_MAIN_CONTROLLER_H_
 
 #include "model.h"
 
@@ -54,4 +54,4 @@ class Controller {
   Model *model_;
 };
 
-#endif  // A8_SRC_MAIN_CONTROLLER_H_
+#endif  // SRC_MAIN_CONTROLLER_H_

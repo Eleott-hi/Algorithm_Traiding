@@ -1,0 +1,46 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[latin1]{inputenc}
+
+\title{Algorithmic Trading}
+\author{cgreenbe, pintoved}
+\date{2/1/2023}
+
+\begin{document}
+\maketitle
+
+\newpage
+\section{brief introduction}
+Plot the probabilistic behavior of stock quotes and their price forecasts for the foreseeable future 
+based on historical data without regard to external factor
+using interpolation and approximation algorithms.
+
+Part 1. Interpolation of tabulated functions
+\begin{itemize}
+  \item Drawing the cubic spline graph;
+  \item Drawing the graph by the Newton polynomial of nth degree;
+  \item There can be up to 5 graphs displayed in the field at the same time.
+\end{itemize}
+
+Part 2. Approximation of tabulated functions
+\begin{itemize}
+  \item Plot a tabulated function of stock quotes using the least squares method;
+  \item The user sets the number of days for which we want to extend the graph;
+  \item Drawing the graph plotted by the polynomial of the degree set at that time;
+  \item There can be up to 5 graphs with the same value of the number of days displayed at the same time.
+\end{itemize}
+
+Part 3. Bonus. Research on temporal characteristics
+\begin{itemize}
+  \item Measure the time required to calculate values using the spline interpolation algorithms
+  and Newton's method, depending on the change in the number of points.
+\end{itemize}
+
+Part 4. Bonus. Approximation with weights
+\begin{itemize}
+  \item The method of least squares takes into account the weights of points.
+\end{itemize}
+
+\end{document}

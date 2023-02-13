@@ -16,7 +16,6 @@ MainWindow::MainWindow(Controller* controller)
                         ui_->research_points_spin_box};
 
   SetupPlots();
-  
 }
 
 MainWindow::~MainWindow() { delete ui_; }

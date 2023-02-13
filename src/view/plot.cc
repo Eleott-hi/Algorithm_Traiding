@@ -56,8 +56,8 @@ void Plot::SetTracers(QPoint const &pos, bool to_date) {
 
 void Plot::AddGraph(QString const &name,
                     QCPScatterStyle::ScatterShape scatter_shape) {
-  static QVector<QColor> colors = {Qt::blue,  Qt::red,  Qt::darkYellow,
-                                   Qt::green, Qt::cyan, Qt::magenta};
+  static const QVector<QColor> colors = {Qt::blue,  Qt::red,  Qt::darkYellow,
+                                         Qt::green, Qt::cyan, Qt::magenta};
   QColor color = colors.at(graphCount());
 
   addGraph();

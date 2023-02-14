@@ -79,4 +79,4 @@ bool Newton::MiniNewton::IsBelongX(double x) const {
   return x_.front() <= x && x <= x_.back();
 }
 
-}  // namespace s21::Interpolation
+}  // namespace Interpolation

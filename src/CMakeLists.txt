@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.5)
 
 project(AlgorithmicTrading VERSION 0.1 LANGUAGES CXX)
 
-# add_compile_options(-O3)
+add_compile_options(-O3)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
@@ -11,8 +11,8 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_BUILD_TYPE
 
-    # RELEASE
-    DEBUG
+    RELEASE
+    # DEBUG
 )
 
 set(QT_LIBS Widgets)
@@ -61,7 +61,7 @@ foreach(i ${LIBS})
 endforeach(i)
 
 if(CMAKE_BUILD_TYPE STREQUAL RELEASE)
-    target_compile_definitions(${PROJECT_NAME} PUBLIC
+    target_compile_definitions(shared PUBLIC
         QT_NO_DEBUG_OUTPUT
         QT_NO_INFO_OUTPUT
         QT_NO_WARNING_OUTPUT

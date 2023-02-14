@@ -85,4 +85,4 @@ double Spline::GetValue(double x) const {
   return 0;
 }
 
-}  // namespace s21::Interpolation
+}  // namespace Interpolation

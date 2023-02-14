@@ -1,6 +1,5 @@
 #include "matrix.h"
 
-
 void Matrix::SwapRows(int row_1, int row_2) {
   for (int i = 0; i < cols_; i++)
     std::swap((*this)(row_1, i), (*this)(row_2, i));
@@ -72,4 +71,3 @@ void Matrix::Init() {
 void Matrix::Copy(const Matrix& other) {
   for (int i = 0; i < rows_ * cols_; ++i) data_[i] = other.data_[i];
 }
-

@@ -1,5 +1,5 @@
-#ifndef SRC_MAIN_VIEW_PLOT_H_
-#define SRC_MAIN_VIEW_PLOT_H_
+#ifndef SRC_VIEW_PLOT_H_
+#define SRC_VIEW_PLOT_H_
 
 #include "shared/qcustomplot.h"
 
@@ -33,4 +33,4 @@ class Plot : public QCustomPlot {
   void DeleteGraph(QCPGraph* graph);
 };
 
-#endif  // SRC_MAIN_VIEW_PLOT_H_
+#endif  // SRC_VIEW_PLOT_H_

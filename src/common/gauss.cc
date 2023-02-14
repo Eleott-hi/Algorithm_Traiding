@@ -35,4 +35,3 @@ std::vector<double> Gauss::Solve(Matrix& matrix) {
 
   return res;
 }
-

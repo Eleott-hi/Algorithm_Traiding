@@ -1,5 +1,5 @@
-#ifndef SRC_MAIN_MODEL_APPROXIMATION_NEWTON_H_
-#define SRC_MAIN_MODEL_APPROXIMATION_NEWTON_H_
+#ifndef SRC_MODEL_APPROXIMATION_NEWTON_H_
+#define SRC_MODEL_APPROXIMATION_NEWTON_H_
 
 #include <vector>
 
@@ -49,6 +49,6 @@ class Newton::MiniNewton {
   long double GetFreeP(std::size_t ind, double xp) const;
 };
 
-}  // namespace s21::Interpolation
+}  // namespace Interpolation
 
-#endif  // SRC_MAIN_MODEL_APPROXIMATION_NEWTON_H_
+#endif  // SRC_MODEL_APPROXIMATION_NEWTON_H_

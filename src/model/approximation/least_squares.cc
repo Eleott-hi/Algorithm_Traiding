@@ -90,4 +90,4 @@ std::vector<double> LeastSquares::FindReverseSlopeWeights() {
   return std::exchange(w_, std::move(tmp_weights));
 }
 
-}
+}  // namespace Approximation

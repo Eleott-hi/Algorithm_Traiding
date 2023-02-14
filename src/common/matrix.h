@@ -1,5 +1,5 @@
-#ifndef SRC_MAIN_MODEL_COMMON_MATRIX_H_
-#define SRC_MAIN_MODEL_COMMON_MATRIX_H_
+#ifndef SRC_MODEL_COMMON_MATRIX_H_
+#define SRC_MODEL_COMMON_MATRIX_H_
 
 #include <ostream>
 
@@ -32,4 +32,4 @@ class Matrix {
   void Copy(const Matrix& other);
 };
 
-#endif  // SRC_MAIN_MODEL_COMMON_MATRIX_H_
+#endif  // SRC_MODEL_COMMON_MATRIX_H_

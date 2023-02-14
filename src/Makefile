@@ -21,8 +21,20 @@ VERSION      := 1.0
 OS           := $(shell uname -s)
 FILES        := $(shell find . -regex '.*\(cc\|h\)' -not -path "*shared*")
 
-BUILD_DIR = ../build
-INSTALL_DIR = ../install
+BUILD_DIR    := ../build
+INSTALL_DIR  := ../install
+
+ifeq ($(OS), Darwin)
+APP		     := $(BUILD_DIR)/$(NAME).app
+else
+APP		     := $(BUILD_DIR)/$(NAME)
+endif
+
+ifeq ($(OS), Darwin)
+OPEN 	     := 'open '
+else
+OPEN	     := ./
+endif
 
 #------------------------------------------------#
 #   RECIPES                                      #
@@ -41,18 +53,14 @@ INSTALL_DIR = ../install
 all: run
 
 run: build
-ifeq ($(OS), Darwin)
-		open $(BUILD_DIR)/$(NAME).app
-else
-		$(BUILD_DIR)/$(NAME)
-endif
+	$(OPEN)$(APP)
 
 install: build
 	mkdir -p $(OBJ_DIR)
-	cp -r build/$(OBJ_NAME) $(OBJ_DIR)
+	cp -r $(APP) $(INSTALL_DIR) 
 
 uninstall:
-	rm -rfv $(OBJ_DIR)
+	rm -rfv $(INSTALL_DIR)
 
 dvi:
 	latex docs.tex docs.dvi

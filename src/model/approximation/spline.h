@@ -1,5 +1,5 @@
-#ifndef SRC_MAIN_MODEL_APPROXIMATION_SPLINE_H_
-#define SRC_MAIN_MODEL_APPROXIMATION_SPLINE_H_
+#ifndef SRC_MODEL_APPROXIMATION_SPLINE_H_
+#define SRC_MODEL_APPROXIMATION_SPLINE_H_
 
 #include <vector>
 
@@ -28,4 +28,4 @@ class Spline : public BaseApproximation {
 
 }  // namespace Interpolation
 
-#endif  // SRC_MAIN_MODEL_APPROXIMATION_SPLINE_H_
+#endif  // SRC_MODEL_APPROXIMATION_SPLINE_H_

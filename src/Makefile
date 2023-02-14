@@ -56,8 +56,8 @@ run: build
 	$(OPEN)$(APP)
 
 install: build
-	mkdir -p $(OBJ_DIR)
-	cp -r $(APP) $(INSTALL_DIR) 
+	mkdir -p $(INSTALL_DIR)
+	cp -r $(APP) $(INSTALL_DIR)
 
 uninstall:
 	rm -rfv $(INSTALL_DIR)
@@ -65,8 +65,8 @@ uninstall:
 dvi:
 	latex docs.tex docs.dvi
 
-dist: build 
-	tar -czvf $(NAME)-$(VERSION).tar.gz . docs.dvi Makefile					
+dist: build dvi
+	tar -czvf $(NAME)-$(VERSION).tar.gz */ *.cc *.h *.txt docs.dvi Makefile					
 
 build:
 	cmake -S . -B $(BUILD_DIR)

@@ -22,12 +22,12 @@ Implementation of the Algorithmic trading project.
 
 To builld project `make` and `cmake` must be installed. 
 
-Пo to project_directory/src in terminal and run `make`. It will start building the project in the build directory using cmake. After that, the program will automatically start.
+Go to project_directory/src in terminal and run `make`. It will start building the project in the build directory using cmake. After that, the program will automatically start.
 
 
 ![Start](misc/images/start.png)
 
-If you see the output below - everything is correct and the program works just fine.
+If you see the output above - everything is correct and the program works just fine.
 
 ## Chapter II
 

@@ -58,6 +58,9 @@ When uploading another file, the data will be replaced.
 In case of any error, an error message box will appear.
 
 
+![Open File](misc/images/open_file.gif)
+
+
 ### Interpolation
 
 *Interpolation* is a method of finding intermediate values of a quantity based on a discrete set of known values.
@@ -70,7 +73,8 @@ There can be 5 graphs on the screen at the same time. To clear graphs, open the 
 You can also search for a value on a specific date in the `Search` area. The date must be within the uploaded points' dates.
 
 
-![Interpolation](misc/images/interpolation.mov)
+![Interpolation](misc/images/interpolation.gif)
+
 
 ### Approximation
 
@@ -90,7 +94,7 @@ When the weighted dataset is loaded, you can proceed "Research". The following c
     - With the degree of polynomial 2 for a table in which all weights are 1
 
 
-![Approximation](misc/images/approximation.mov)
+![Approximation](misc/images/approximation.gif)
 
 
 ## Research
@@ -104,4 +108,4 @@ Graphs are built after measurements.
 This part of the program is not in a separate thread, so be wise with the choice of number of points and parts.
 
 
-![Research](misc/images/research.mov)
+![Research](misc/images/research.gif)
